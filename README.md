@@ -34,14 +34,7 @@ Click-to-run desktop app for **Windows, macOS and Linux**. It drives a real brow
 ## 1. Easiest: download the app
 
 1. Install **Google Chrome** (https://www.google.com/chrome/). On Windows, Microsoft Edge also works.
-2. Go to the **[Releases](../../releases)** page and download the file for your system:
-
-   | System | File |
-   |---|---|
-   | Windows | `NovelToEpub-Windows.zip` |
-   | macOS (Apple Silicon: M1/M2/M3/M4) | `NovelToEpub-macOS-AppleSilicon.zip` |
-   | Linux | `NovelToEpub-Linux.zip` |
-
+2. Go to the **[Releases](../../releases)** page and download the file for your system
 3. Unzip it and double-click **NovelToEpub**.
 
 **The app is not code-signed**, so your system will warn you the first time:
@@ -68,7 +61,7 @@ The first run creates a private environment and installs what it needs (takes a 
 ## 3. Run from the terminal
 
 ```bash
-git clone https://github.com/sayin131/NovelToEpub.git
+git clone https://github.com/sayin131/WebNovelToEpub.git
 cd NovelToEpub
 
 python3 -m venv venv
