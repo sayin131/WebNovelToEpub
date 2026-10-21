@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Packaging output
+build/
+dist/
+*.spec
+
+# Browser session (contains cookies - NEVER commit this)
+browser_profile/
+
+# Generated books / archives
+*.epub
+*.zip
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

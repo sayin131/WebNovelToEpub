@@ -1,0 +1,2 @@
+# Only needed to build the standalone app yourself
+pyinstaller>=6.0
