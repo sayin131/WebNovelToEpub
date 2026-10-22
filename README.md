@@ -33,7 +33,7 @@ Click-to-run desktop app for **Windows, macOS and Linux**. It drives a real brow
 
 ## 1. Easiest: download the app
 
-1. Install **Google Chrome** (https://www.google.com/chrome/). On Windows, Microsoft Edge also works.
+1. Install **Google Chrome** (https://www.google.com/chrome/), which is required on macOS and Linux. On Windows, Microsoft Edge also works. On Linux, Chromium installed through Playwright also works.
 2. Go to the **[Releases](../../releases)** page and download the file for your system
 3. Unzip it and double-click **NovelToEpub**.
 
