@@ -178,11 +178,11 @@ def load(page, url, log=print, should_stop=lambda: False):
         if should_stop():
             raise Stopped()
         if waited == 0:
-            log("  Cloudflare check - please click it in the browser window...")
+            log("  Cloudflare check or any other popups - please click it in the browser window...")
         page.wait_for_timeout(1000)
         waited += 1
         if waited > 180:
-            raise RuntimeError("Cloudflare check not passed in 3 minutes")
+            raise RuntimeError("Cloudflare check or any other popups not passed in 3 minutes")
     try:
         page.wait_for_load_state("networkidle", timeout=15000)
     except Exception:
